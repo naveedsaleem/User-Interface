@@ -55,6 +55,7 @@ table {
 html, body {
     height: 100%;
     font-family: 'Titillium Web', sans-serif;
+    background-color: black;
 }
 
 h1, h2, h3, h4, h5 {
@@ -64,3 +65,92 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+.container {
+	width: 1000px;
+	margin: auto;
+	border: 1px solid red;
+	background-color: white;
+}
+
+.container h4 {
+	font-weight: bold;
+}
+
+.container .cta  img{
+	/*margin-left: 115px;*/
+}
+
+header nav {
+	display: inline-block;
+	margin-top: 38px;
+}
+
+header .logo {
+	margin-left: 58px;
+	vertical-align: middle;
+}
+
+header nav a {
+    margin: 0px 3px 31px 64px;
+    color: #A9A9A9;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.cta {
+	
+	margin-top: 20px;
+}
+
+.cta .cta-text {
+	display: inline-block;
+	text-align: center;
+}
+
+.cta .cta-text h1 {
+	font-size: 75px;
+	margin: 0px 136px 40px 107px;
+}
+
+.main-content {
+	margin: 40px 59px;
+}
+
+.main-content .top-content .text-content {
+	width: 49%;
+	display: inline-block;
+	margin: 49px 0px;
+}
+
+.main-content .bottom-content .text-content {
+	width: 33%;
+    display: inline-block;
+    margin: 49px 0px;
+}
+
+.middle-img {
+	vertical-align: middle;
+}
+
+.contact {
+	margin: 40px 59px;
+}
+
+.contact .cell-contact
+{
+	line-height: 3;
+}
+
+hr {
+    display: block;
+    height: 3px;
+    border: 0;
+    border-top: 2px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+footer p {
+ text-align: center;
+}
